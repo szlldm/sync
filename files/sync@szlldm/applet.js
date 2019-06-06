@@ -42,7 +42,8 @@ MyApplet.prototype = {
 
         try {
             this.setAllowedLayout(Applet.AllowedLayout.BOTH);
-            this.set_applet_icon_name("emblem-ubuntuone-unsynchronized");
+            this.set_applet_icon_path(AppletDir + '/icon.png');
+            //this.set_applet_icon_name("emblem-ubuntuone-unsynchronized");
             this.set_applet_tooltip(_("Click to sync"));
             this.actor.connect('button-release-event', Lang.bind(this, this._onButtonReleaseEvent));
             this._update();
