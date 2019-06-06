@@ -1,0 +1,7 @@
+{
+    "dangerous": false, 
+    "description": "Click on the applet to sync", 
+    "icon": "emblem-ubuntuone-unsynchronized", 
+    "uuid": "sync@szlldm", 
+    "name": "Sync"
+}
